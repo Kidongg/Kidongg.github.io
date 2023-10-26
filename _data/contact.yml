@@ -2,17 +2,27 @@
 
 - type: github
   icon: "fab fa-github"
+  url: "https://github.com/Kidongg"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: linkedin
+  icon: "fa-brands fa-linkedin"
+  url: "https://www.linkedin.com/in/kidongg/"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+- type: instagram
+  icon: "fa-brands fa-instagram"
+  url: "https://www.instagram.com/ki_dongg_/"
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+- type: blog
+  icon: "fa-solid fa-b"
+  url: "https://blog.naver.com/ki_dongg"
+  
+# - type: email
+#   icon: "fas fa-envelope"
+#   noblank: true # open link in current tab
+
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
