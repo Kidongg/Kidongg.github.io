@@ -38,8 +38,8 @@ social:
   email: dlrlehd7@daum.net # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your twitter homepage
-    # - https://github.com/Kidongg # change to your github homepage
+    - https://github.com/Kidongg # change to your twitter homepage
+    # - https://twitter.com/Kidongg  # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -113,7 +113,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://Kidongg.github.io"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
