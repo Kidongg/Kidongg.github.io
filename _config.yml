@@ -74,7 +74,7 @@ theme_mode: dark
 img_cdn: "https://firebasestorage.googleapis.com"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/v0/b/blog-a27f7.appspot.com/o/images%2Fprofile.jpg?alt=media&token=1536ba02-589b-4e96-b161-353b461fd1f6.jpg"
+avatar: "/v0/b/blog-a27f7.appspot.com/o/images%2Fprofile_blog.jpg?alt=media&token=fcb9aba0-a0be-47c6-8d7e-d0036031d6a5"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
