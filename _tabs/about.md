@@ -25,7 +25,7 @@ Next.js 14를 즐겨 사용하며, 비즈니스 성과를 최우선으로 생각
 &nbsp; Instagram : [https://www.instagram.com/kidongg/](https://www.instagram.com/ki_dongg_/){:target="\_blank"} <br/>
 &nbsp; Blog(old) : [https://blog.naver.com/ki_dongg](https://blog.naver.com/ki_dongg){:target="\_blank"}
 
-<br/>
+<br/><br/>
 
 ## 🏢 WORK EXPERIENCES
 
