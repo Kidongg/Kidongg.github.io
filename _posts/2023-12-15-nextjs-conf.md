@@ -1,7 +1,7 @@
 ---
 title: Next.js Conf (2023.10.26)
-date: 2023-12-15
-categories: [Frontend, Next.js]
+date: 2023-12-15 22:50:00 +0900
+categories: [Frontend, Nextjs]
 tags: [Next.js, Next.js-conf, Next.js-14]
 image: /assets/img/posts/nextjs.png
 ---
