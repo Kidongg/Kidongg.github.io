@@ -7,7 +7,7 @@ image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?
 ---
 
 > 본 포스팅은 [Next.js의 공식 블로그](https://nextjs.org/blog/next-14)에 포스팅된 Next.js conf 내용을 번역한 것입니다.
-{: .prompt-tip }
+> {: .prompt-tip }
 
 ## Next.js 14
 
@@ -46,21 +46,184 @@ npx create-next-app@latest
 
 ---
 
+Next.js 9에서는 프론트엔드 코드와 함께 백엔드 엔드포인트를 빠르게 구축할 수 있는 방법인 API 라우트가 도입되었습니다. <br>
+예를 들어 `api/` 디렉터리에 새 파일을 만들 수 있습니다.
+
+```react
+// pages/api/submit.ts
+
+import type { NextApiRequest, NextApiResponse } from "next";
+
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
+  const data = req.body;
+  const id = await createItem(data);
+  res.status(200).json({ id });
+}
+```
+
+그런 다음 클라이언트 측에서 React와 `onSubmit`과 같은 이벤트 핸들러를 사용하여 API Route로 `fetch`를 만들 수 있습니다.
+
+```react
+// pages/index.tsx
+
+import { FormEvent } from "react";
+
+export default function Page() {
+  async function onSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const formData = new FormData(event.currentTarget);
+    const response = await fetch("/api/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    // Handle response if necessary
+    const data = await response.json();
+    // ...
+  }
+
+  return (
+    <form onSubmit={onSubmit}>
+      <input type="text" name="name" />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+```
+
+이제 Next.js 14를 통해 데이터 변형을 작성하는 개발자 경험을 간소화하고자 합니다. 또한 사용자가 네트워크 연결 속도가 느리거나 저전력 기기에서 양식을 제출할 때 사용자 경험을 개선하고자 합니다.
+
 ### Server Actions (Stable)
 
+API 경로를 수동으로 생성할 필요가 없다면 어떨까요? 대신 서버에서 안전하게 실행되는 함수를 정의하고 React 컴포넌트에서 직접 호출할 수 있습니다. <br/>
+App router [프레임워크](https://react.dev/blog/2023/05/03/react-canaries)는 새로운 기능을 채택하기에 안정적인 React `canary` 채널을 기반으로 구축되었습니다. Next.js 14부터는 안정적인 서버 액션을 포함하는 최신 React `canary`로 업그레이드 되었습니다. <br/>
+Pages router의 이전 예제는 하나의 파일로 단순화 할 수 있습니다.
+
+```react
+// app/page.tsx
+
+export default function Page() {
+  async function create(formData: FormData) {
+    'use server';
+    const id = await createItem(formData);
+  }
+
+  return (
+    <form action={create}>
+      <input type="text" name="name" />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+```
+
 ### Caching, Revalidating, Redirecting and more
+
+서버 작업은 전체 앱 라우터 모델에 긴밀하기 통합되어 있습니다.
+
+- `revalidatePath()` 또는 `revalidateTag()`를 통해 캐시된 데이터 재검증
+- `redirect()`를 통해 다른 경로로 리다이렉션
+- `cookies()`를 통해 쿠키 설정 및 읽기
+- `useOptimistic()`으로 최적화 UI 업데이트 처리하기
+- `useFormState()`로 서버에서 오류를 포착하고 표시하기
+- `useFormStatus()`로 클라이언트에서 로딩 상태 표시하기
+
+[Forms and Mutations with Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)에 대해 자세히 알아보거나 서버 컴포넌트 및 서버 동작의 [보안 모델](https://nextjs.org/blog/security-nextjs-server-components-actions) 및 모범 사례에 대해 자세히 알아보세요.
 
 ## Partial Prerendering (Preview)
 
 ---
 
+빠른 초기 정적 응답을 제공하는 동적 콘텐츠를 위한 컴파일러 최적화 기능인 Partial Prerendering의 미리보기를 개발 중입니다. <br/>
+Partial Prerendering은 server-side rendering(SSR), static-site generation(SSG), incremental static revalidation(ISR)에 대한 10년간의 연구와 개발을 기반으로 합니다.
+
 ### Motivation
+
+여러분의 피드백을 들었습니다. 현재 고려해야 할 runtimes, configuration options, rendering methods가 너무 많습니다. 여러분은 정적 응답의 속도와 안정성을 원하면서도 동적이고 개인화된 응답을 지원하기를 원합니다. <br/>
+전 세계적으로 뛰어난 성능을 발휘하고 개인화하기 위해 복잡성이 포함되면 안됩니다.우리의 과제는 개발자가 배워야 할 새로운 API를 도입하지 않고 기존 모델을 단순화하여 더 나은 개발자 환경을 만드는 것이었습니다. 서버 측 콘텐츠의 부분적인 캐싱이 존재했지만, 이러한 접근 방식은 우리가 목표로 하는 개발자 경험과 구성 가능성을 달성하기에는 여전히 부족했습니다. <br/>
+Partial Prerendering은 새로운 API를 학습할 필요가 없습니다.
 
 ### Built on React Suspense
 
+Partial Prerendering은 Suspense 경계에 따라 정의됩니다. 작동 방식은 다음과 같습니다. 다음 전자상거래 페이지로 예를 들어 보겠습니다.
+
+```react
+// app/page.tsx
+
+export default function Page() {
+  return (
+    <main>
+      <header>
+        <h1>My Store</h1>
+        <Suspense fallback={<CartSkeleton />}>
+          <ShoppingCart />
+        </Suspense>
+      </header>
+      <Banner />
+      <Suspense fallback={<ProductListSkeleton />}>
+        <Recommendations />
+      </Suspense>
+      <NewProducts />
+    </main>
+  );
+}
+```
+
+Partial Prerendering이 활성화된 상태에서 이 페이지는 `<Suspense />` 경계를 기반으로 정적 shell을 생성합니다. React Suspense의 `fallback`이 미리 렌더링됩니다. <br />
+그런 다음 shell의 Suspense fallbacks는 쿠키를 읽어 cart를 확인하거나 사용자를 기반으로 banner를 표시하는 등의 동적 컴포넌트로 대체됩니다. <br />
+요청이 이루어지면 정적 HTML shell이 즉시 제공됩니다.
+
+```html
+<main>
+  <header>
+    <h1>My Store</h1>
+    <div class="cart-skeleton">
+      <!-- Hole -->
+    </div>
+  </header>
+  <div class="banner" />
+  <div class="product-list-skeleton">
+    <!-- Hole -->
+  </div>
+  <section class="new-products" />
+</main>
+```
+
+`<ShoppingCart />`는 쿠키를 읽어 사용자 session을 확인함으로 이 구성 요소는 정적 shell과 동일한 HTTP 요청의 일부로 스트리밍 됩니다. 추가 네트워크 roundtrips가 필요하지 않습니다.
+
+```react
+// app/cart.tsx
+
+import { cookies } from 'next/headers'
+
+export default function ShoppingCart() {
+  const cookieStore = cookies()
+  const session = cookieStore.get('session')
+  return ...
+}
+```
+
+제일 세분화된 정적 shell을 사용하려면 Suspense 경계를 추가해야할 수 있습니다. 그러나 `loading.js`를 사용하고 있다면 이는 암시적인 Suspense 경계임으로 정적 shell을 생성하는 데 변경이 필요하지 않습니다.
+
 ### Coming soon
 
+Partial Prerendering은 현재 활발히 개발 중입니다. 향후 마이너 릴리스에서 더 많은 업데이트를 공유할 예정입니다.
+
 ## Metadata Improvements
+
+서버에서 페이지 콘텐츠를 스트리밍하려면 먼저 viewport, color scheme 및 theme에 대한 중요한 metadata를 브라우저로 전송해야합니다. <br />
+이러한 `meta` 태그가 초기 페이지 콘텐츠와 함께 전송되도록 하면 theme 색상을 변경하여 페이지가 깜빡이거나, viewport 변경으로 인해 레이아웃이 바뀌는 것을 방지하여 원활한 사용자 경험을 제공할 수 있습니다. <br />
+Next.js 14에서는 차단 metadata와 비차단 metadata를 분리했습니다. metadata 옵션의 일부만 차단하고, 비차단 metadata가 partially prerendered page가 정적 shell을 제공하는 것을 방해하지 않도록 하는 것입니다. <br />
+다음 metadata 옵션은 현재 더 이상 사용되지 않으며 향후 주요 버전 `metadata`에서 제거될 예정입니다.
+
+- `viewport` : viewport의 초기 확대/축소 및 기타 속성을 설정합니다.
+- `colorScheme` : viewport의 지원 모드(밝음/어두움)를 설정합니다.
+- `themeColor` : viewport 주변의 크롬을 렌더링할 색을 설정합니다.
+  Next.js 14부터 이러한 옵션을 대체하는 새로운 옵션 [`viewport` 및 `generateViewport`](https://nextjs.org/docs/app/api-reference/functions/generate-viewport)가 추가되었습니다. 다른 모든 metadata 옵션은 동일하게 유지됩니다. 이 새로운 API는 지금 바로 적용할 수 있습니다. 기존 `metadata` 옵션은 그대로 작동합니다.
 
 ---
 
@@ -68,10 +231,45 @@ npx create-next-app@latest
 
 ---
 
+오늘 [Next.js Learn](https://nextjs.org/learn)에서 새로운 무료 강좌를 출시합니다. 이 강좌에서는 다음을 학습합니다.
+
+- The Next.js App Router
+- Styling and Tailwind CSS
+- Optimizing Fonts and Images
+- Creating Layouts and Pages
+- Navigating Between Pages
+- Setting Up Your Postgres Database
+- Fetching Data with Server Components
+- Static and Dynamic Rendering
+- Streaming
+- Partial Prerendering (Optional)
+- Adding Search and Pagination
+- Mutating Data
+- Handling Errors
+- Improving Accessibility
+- Adding Authentication
+- Adding Metadata
+
+Next.js Learn은 수백만 명의 개발자에게 프레임워크의 기초를 가르쳐 왔으며, 새로 추가된 기능에 대한 여러분의 피드백을 기다리겠습니다. [nextjs.org/learn](https://nextjs.org/learn)에서 강좌를 수강하세요.
+
 ## Other Changes
+
+- [Breaking] Node.js 최소 버전이 `18.17`로 변경되었습니다.
+- [Breaking] `next-swc` 빌드에 대한 WASM 타겟 제거([PR](https://github.com/vercel/next.js/pull/57437))
+- [Breaking] `next/font`를 위해 `@next/font`에 대한 중단 지원([Codemod](https://nextjs.org/docs/app/building-your-application/upgrading/codemods#built-in-next-font))
+- [Breaking] `ImageResponse` 가져오기를 `next/server`에서 `next/og`로 변경([Codemod](https://nextjs.org/docs/app/building-your-application/upgrading/codemods#next-og-import))
+- [Breaking] `next export` 명령인 `output: 'export'`은 출력을 위해 더 이상 사용되지 않습니다.([Docs](https://nextjs.org/docs/app/building-your-application/deploying/static-exports))
+- [Deprecation] [`onLoad`](https://nextjs.org/docs/app/api-reference/components/image#onload)를 위해 `next/image`에 대한 `onLoadingComplete`가 사용 중단되었습니다.
+- [Deprecation] [`remotePatterns`](https://nextjs.org/docs/app/api-reference/components/image#remotepatterns)를 위해 `next/image`에 대한 `domains`가 사용 중단되었습니다.
+- [Feature] `fetch` 캐싱에 대한 보다 자세한 logging을 활성화할 수 있습니다.([Docs](https://nextjs.org/docs/app/api-reference/next-config-js/logging))
+- [Improvement] `create-next-app` 애플리케이션의 함수 크기가 80% 작아졌습니다.
+- [Improvement] `edge` runtime 사용 개발 시 메모리 관리를 강화했습니다.
 
 ---
 
 ## My Opinion
+
+Next.js가 엔지니어의 개발 경험 향상을 위해 노력을 많이 하는 것 같습니다. 단순한 문법으로 프론트와 백엔드 로직을 하나의 파일에서 관리하여 빠른 개발이 가능할 것 같습니다. 그럼에도 불구하고 Next.js 서버 하나로 모든 비즈니스 로직을 구현하는 것은 한계가 있다고 생각합니다. 만약 1인 개발이고, 서비스 규모가 작고, 추후에 변경 가능성이 적을 경우에 사용하면 좋을 것이라 생각합니다. <br/>
+Next.js의 렌더링 측면에서 유저 경험 향상을 위한 노력이 인상 깊습니다. Partial Prerendering이라는 새로운 개념을 제시하여 동적 콘텐츠를 정적 콘텐츠와 비슷한 속도로 렌더링하려는 목표를 달성할 수 있을지 궁금합니다. Partial Prerendering이 Stable하게 동작한다면 프론트엔드 프레임워크로써 Next.js의 영향력이 더 커지지 않을까 생각합니다.
 
 ---
