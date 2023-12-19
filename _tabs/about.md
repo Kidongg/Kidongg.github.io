@@ -5,10 +5,11 @@ title: Hi, My name is KIDONG LEE!
 date: 2023-12-12
 icon: fas fa-info-circle
 order: 4
+toc: false
 ---
 
 > 저에 대해 관심이 있으시다면, [Notion 포트폴리오](https://zigzag-bite-781.notion.site/Kidong-Lee-s-Portfolio-7a1ac4914ebc488a8f19997748eec5d4?pvs=4)를 방문하시면 저에 대한 자세한 내용을 확인하실 수 있습니다!
-{: .prompt-tip }
+> {: .prompt-tip }
 
 ![Desktop View](/v0/b/blog-a27f7.appspot.com/o/images%2Fprofile_about.jpg?alt=media&token=3712dc80-0904-4cc8-b803-7a24be7e8da8){: width="300" height="400" }{: .left }
 
@@ -61,16 +62,16 @@ _July 2023 ~ Present_ <br/>
 
 ---
 
-- [인공지능 아이디어 경진대회 대상 (부산광역시장상)](https://zigzag-bite-781.notion.site/98f68ba5472f41458d8a19f5ef55a943?pvs=4){:target="\_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _2022.11_
-- 데이터 분석 준전문가 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _2022.11_
-- 중등학교 교원 자격증 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _2021.02_
+- [인공지능 아이디어 경진대회 대상 (부산광역시장상)](https://zigzag-bite-781.notion.site/98f68ba5472f41458d8a19f5ef55a943?pvs=4){:target="\_blank"} <br/> _2022.11_
+- 데이터 분석 준전문가 <br/> _2022.11_
+- 중등학교 교원 자격증 <br/> _2021.02_
 
 ## 🎮 EXPERIENCES
 
 ---
 
-- [운영체제 스터디](https://zigzag-bite-781.notion.site/OPERATING-SYSTEM-e1104d5d1fd3467983954c8486ede2e5?pvs=4){:target="\_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _2023.06~2023.11_
-- [내일배움캠프 (프론트엔드 부트캠프)](https://zigzag-bite-781.notion.site/dcac5b173d854b2fa968e58ca21750d2?pvs=4){:target="\_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _2022.10~2023.03_
-- [AI 배울랑교 (데이터 사이언스 교육)](https://zigzag-bite-781.notion.site/AI-cca74839ff834718862fce5a0123eff2?pvs=4){:target="\_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _2022.08~2022.10_
+- [운영체제 스터디](https://zigzag-bite-781.notion.site/OPERATING-SYSTEM-e1104d5d1fd3467983954c8486ede2e5?pvs=4){:target="\_blank"} <br/> _2023.06~2023.11_
+- [내일배움캠프 (프론트엔드 부트캠프)](https://zigzag-bite-781.notion.site/dcac5b173d854b2fa968e58ca21750d2?pvs=4){:target="\_blank"} <br/> _2022.10~2023.03_
+- [AI 배울랑교 (데이터 사이언스 교육)](https://zigzag-bite-781.notion.site/AI-cca74839ff834718862fce5a0123eff2?pvs=4){:target="\_blank"} <br/> _2022.08~2022.10_
 
 ---
