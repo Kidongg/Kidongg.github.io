@@ -10,22 +10,19 @@ order: 4
 > 저에 대해 관심이 있으시다면, [Notion 포트폴리오](https://zigzag-bite-781.notion.site/Kidong-Lee-s-Portfolio-7a1ac4914ebc488a8f19997748eec5d4?pvs=4)를 방문하시면 저에 대한 자세한 내용을 확인하실 수 있습니다!
 {: .prompt-tip }
 
-![Desktop View](/v0/b/blog-a27f7.appspot.com/o/images%2Fprofile_about.jpg?alt=media&token=3712dc80-0904-4cc8-b803-7a24be7e8da8){: width="300" height="400" }{: .left }
-
 ## 📱 CONTACT INFORMATION
 
 ---
 
-Next.js 14를 즐겨 사용하며, 비즈니스 성과를 최우선으로 생각하는 엔지니어입니다. “Simple is the Best”를 좌우명으로 가지고 있으며, 생각한 것들을 구현하고 설명하는 것을 좋아합니다.
+__Next.js 14를 즐겨 사용하며, 비즈니스 성과를 최우선으로 생각하는 엔지니어입니다.__ <br />
+__*<u>“Simple is the Best”</u>* 를 좌우명으로 가지고 있으며, 생각한 것들을 구현하고 설명하는 것을 좋아합니다.__
 
-<br/>
+<br />
 
 &nbsp; Github : [https://github.com/Kidongg](https://github.com/Kidongg){:target="_blank"} <br/>
 &nbsp; Linkedin : [https://www.linkedin.com/in/kidongg/](https://www.linkedin.com/in/kidongg/){:target="\_blank"} <br/>
 &nbsp; Instagram : [https://www.instagram.com/kidongg/](https://www.instagram.com/ki_dongg_/){:target="\_blank"} <br/>
 &nbsp; Blog(old) : [https://blog.naver.com/ki_dongg](https://blog.naver.com/ki_dongg){:target="\_blank"}
-
-<br/><br/>
 
 ## 🏢 WORK EXPERIENCES
 
@@ -39,7 +36,7 @@ _July 2023 ~ Present_ <br/>
 - NFT 데이터 통합 플랫폼의 Frontend를 기획부터, 개발, 배포까지 End-to-End로 진행
 - SNS 크롤링 봇 개발을 통한 브랜드 마케팅 전략팀의 업무 자동화에 기여
 - NFT 프로젝트를 분석 및 관리 할 수 있는 관리자 페이지 개발을 통한 비즈니스 의사결정에 기여
-- SEO가 적용된 NFT 프로젝트 개발을 통한 1023개 NFT를 화이트리스트, 퍼블릭으로 민팅
+- SEO가 적용된 NFT 프로젝트 개발을 통한 약 300개 NFT를 화이트리스트, 퍼블릭으로 민팅
 
 ## 🛠️ SKILLS
 
