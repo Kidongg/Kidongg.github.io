@@ -72,4 +72,4 @@ _출처 : Next.js Learn_
 
 ## My Opinion
 
-Next.js Learn은 입문자를 위한 Next.js 공식 자료입니다. 개인적으로 Next.js를 이해하는데 큰 도움이 되었습니다. 본 번역 시리즈가 Next.js를 공부하는 사람들에게 도움이 되길 바랍니다.
+Next.js Learn은 입문자를 위한 Next.js 공식 자료입니다. 개인적으로 Next.js를 이해하는데 큰 도움이 되었습니다. 그래서 Next.js Learn을 한국어로 번역하여 공유하고자 합니다. 본 번역 시리즈가 Next.js를 공부하는 사람들에게 도움이 되길 바랍니다.
