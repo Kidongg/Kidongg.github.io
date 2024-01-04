@@ -6,7 +6,7 @@ tags: [Next.js, Next.js conf, Next.js 14]
 image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?alt=media&token=09247773-9707-4dd1-b3ca-3fe7f943497a
 ---
 
-> 본 포스팅은 [Next.js의 공식 블로그](https://nextjs.org/blog/next-14)에 포스팅된 Next.js conf 내용을 번역한 것입니다.
+> 본 포스팅은 [Next.js의 공식 블로그](https://nextjs.org/blog/next-14){:target="\_blank"}에 포스팅된 Next.js conf 내용을 번역한 것입니다.
 {: .prompt-tip }
 
 ## Next.js 14
@@ -34,19 +34,19 @@ npx create-next-app@latest
 
 ---
 
-`next dev`를 위한 5,000건의 통합 테스트가 현재 기본 Rust 엔진인 [Turbopack](https://turbo.build/pack)을 통해 진행 중입니다. 이러한 테스에는 7년간의 버그 수정이 포함됩니다. <br>
+`next dev`를 위한 5,000건의 통합 테스트가 현재 기본 Rust 엔진인 [Turbopack](https://turbo.build/pack){:target="\_blank"}을 통해 진행 중입니다. 이러한 테스에는 7년간의 버그 수정이 포함됩니다. <br>
 대규모 Next.js 애플리케이션인 `vercel.com`에서 테스트하는 동안 다음과 같은 사실을 확인했습니다.
 
 - 최대 53.3% 빨라진 로컬 서버 시작 속도
 - 빠른 새로 고침으로 최대 94.7% 더 빠른 코드 업데이트
 
-이 벤치마크는 대규모 애플리케이션에서 기대할 수 있는 성능 개선의 실질적인 결과입니다. 현재 다음 개발 테스트의 90%가 통과되었음으로 `--turbo`를 사용할 때 더 빠르고 안정적인 성능을 일관되게 경험할 수 있습니다. 테스트 통과율이 100%에 도달하면 다음 마이너 릴리스에서 터보팩을 안정 버전으로 전환할 예정입니다. 또한 사용자 정의 구성 및 에코 시스템 플러그인에 대한 웹팩 사용도 계속 지원할 예정입니다. 테스트 통과율을 [`areweturboyet.com`](https://areweturboyet.com/)에서 확인할 수 있습니다.
+이 벤치마크는 대규모 애플리케이션에서 기대할 수 있는 성능 개선의 실질적인 결과입니다. 현재 다음 개발 테스트의 90%가 통과되었음으로 `--turbo`를 사용할 때 더 빠르고 안정적인 성능을 일관되게 경험할 수 있습니다. 테스트 통과율이 100%에 도달하면 다음 마이너 릴리스에서 터보팩을 안정 버전으로 전환할 예정입니다. 또한 사용자 정의 구성 및 에코 시스템 플러그인에 대한 웹팩 사용도 계속 지원할 예정입니다. 테스트 통과율을 [`areweturboyet.com`](https://areweturboyet.com/){:target="\_blank"}에서 확인할 수 있습니다.
 
 ## Forms and Mutations
 
 ---
 
-Next.js 9에서는 프론트엔드 코드와 함께 백엔드 엔드포인트를 빠르게 구축할 수 있는 방법인 API 라우트가 도입되었습니다. <br>
+Next.js 9에서는 프론트엔드 코드와 함께 백엔드 엔드포인트를 빠르게 구축할 수 있는 방법인 API 라우트가 도입되었습니다. <br/>
 예를 들어 `api/` 디렉터리에 새 파일을 만들 수 있습니다.
 
 ```react
@@ -100,7 +100,7 @@ export default function Page() {
 ### Server Actions (Stable)
 
 API 경로를 수동으로 생성할 필요가 없다면 어떨까요? 대신 서버에서 안전하게 실행되는 함수를 정의하고 React 컴포넌트에서 직접 호출할 수 있습니다. <br/>
-App router [프레임워크](https://react.dev/blog/2023/05/03/react-canaries)는 새로운 기능을 채택하기에 안정적인 React `canary` 채널을 기반으로 구축되었습니다. Next.js 14부터는 안정적인 서버 액션을 포함하는 최신 React `canary`로 업그레이드 되었습니다. <br/>
+App router [프레임워크](https://react.dev/blog/2023/05/03/react-canaries){:target="\_blank"}는 새로운 기능을 채택하기에 안정적인 React `canary` 채널을 기반으로 구축되었습니다. Next.js 14부터는 안정적인 서버 액션을 포함하는 최신 React `canary`로 업그레이드 되었습니다. <br/>
 Pages router의 이전 예제는 하나의 파일로 단순화 할 수 있습니다.
 
 ```react
@@ -132,7 +132,7 @@ export default function Page() {
 - `useFormState()`로 서버에서 오류를 포착하고 표시하기
 - `useFormStatus()`로 클라이언트에서 로딩 상태 표시하기
 
-[Forms and Mutations with Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)에 대해 자세히 알아보거나 서버 컴포넌트 및 서버 동작의 [보안 모델](https://nextjs.org/blog/security-nextjs-server-components-actions) 및 모범 사례에 대해 자세히 알아보세요.
+[Forms and Mutations with Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations){:target="\_blank"}에 대해 자세히 알아보거나 서버 컴포넌트 및 서버 동작의 [보안 모델](https://nextjs.org/blog/security-nextjs-server-components-actions){:target="\_blank"} 및 모범 사례에 대해 자세히 알아보세요.
 
 ## Partial Prerendering (Preview)
 
@@ -223,7 +223,7 @@ Next.js 14에서는 차단 metadata와 비차단 metadata를 분리했습니다.
 - `viewport` : viewport의 초기 확대/축소 및 기타 속성을 설정합니다.
 - `colorScheme` : viewport의 지원 모드(밝음/어두움)를 설정합니다.
 - `themeColor` : viewport 주변의 크롬을 렌더링할 색을 설정합니다.
-  Next.js 14부터 이러한 옵션을 대체하는 새로운 옵션 [`viewport` 및 `generateViewport`](https://nextjs.org/docs/app/api-reference/functions/generate-viewport)가 추가되었습니다. 다른 모든 metadata 옵션은 동일하게 유지됩니다. 이 새로운 API는 지금 바로 적용할 수 있습니다. 기존 `metadata` 옵션은 그대로 작동합니다.
+  Next.js 14부터 이러한 옵션을 대체하는 새로운 옵션 [`viewport` 및 `generateViewport`](https://nextjs.org/docs/app/api-reference/functions/generate-viewport){:target="\_blank"}가 추가되었습니다. 다른 모든 metadata 옵션은 동일하게 유지됩니다. 이 새로운 API는 지금 바로 적용할 수 있습니다. 기존 `metadata` 옵션은 그대로 작동합니다.
 
 ---
 
@@ -231,7 +231,7 @@ Next.js 14에서는 차단 metadata와 비차단 metadata를 분리했습니다.
 
 ---
 
-오늘 [Next.js Learn](https://nextjs.org/learn)에서 새로운 무료 강좌를 출시합니다. 이 강좌에서는 다음을 학습합니다.
+오늘 [Next.js Learn](https://nextjs.org/learn){:target="\_blank"}에서 새로운 무료 강좌를 출시합니다. 이 강좌에서는 다음을 학습합니다.
 
 - The Next.js App Router
 - Styling and Tailwind CSS
@@ -250,18 +250,18 @@ Next.js 14에서는 차단 metadata와 비차단 metadata를 분리했습니다.
 - Adding Authentication
 - Adding Metadata
 
-Next.js Learn은 수백만 명의 개발자에게 프레임워크의 기초를 가르쳐 왔으며, 새로 추가된 기능에 대한 여러분의 피드백을 기다리겠습니다. [nextjs.org/learn](https://nextjs.org/learn)에서 강좌를 수강하세요.
+Next.js Learn은 수백만 명의 개발자에게 프레임워크의 기초를 가르쳐 왔으며, 새로 추가된 기능에 대한 여러분의 피드백을 기다리겠습니다. [nextjs.org/learn](https://nextjs.org/learn){:target="\_blank"}에서 강좌를 수강하세요.
 
 ## Other Changes
 
 - [Breaking] Node.js 최소 버전이 `18.17`로 변경되었습니다.
-- [Breaking] `next-swc` 빌드에 대한 WASM 타겟 제거([PR](https://github.com/vercel/next.js/pull/57437))
-- [Breaking] `next/font`를 위해 `@next/font`에 대한 중단 지원([Codemod](https://nextjs.org/docs/app/building-your-application/upgrading/codemods#built-in-next-font))
-- [Breaking] `ImageResponse` 가져오기를 `next/server`에서 `next/og`로 변경([Codemod](https://nextjs.org/docs/app/building-your-application/upgrading/codemods#next-og-import))
-- [Breaking] `next export` 명령인 `output: 'export'`은 출력을 위해 더 이상 사용되지 않습니다.([Docs](https://nextjs.org/docs/app/building-your-application/deploying/static-exports))
-- [Deprecation] [`onLoad`](https://nextjs.org/docs/app/api-reference/components/image#onload)를 위해 `next/image`에 대한 `onLoadingComplete`가 사용 중단되었습니다.
-- [Deprecation] [`remotePatterns`](https://nextjs.org/docs/app/api-reference/components/image#remotepatterns)를 위해 `next/image`에 대한 `domains`가 사용 중단되었습니다.
-- [Feature] `fetch` 캐싱에 대한 보다 자세한 logging을 활성화할 수 있습니다.([Docs](https://nextjs.org/docs/app/api-reference/next-config-js/logging))
+- [Breaking] `next-swc` 빌드에 대한 WASM 타겟 제거([PR](https://github.com/vercel/next.js/pull/57437){:target="\_blank"})
+- [Breaking] `next/font`를 위해 `@next/font`에 대한 중단 지원([Codemod](https://nextjs.org/docs/app/building-your-application/upgrading/codemods#built-in-next-font){:target="\_blank"})
+- [Breaking] `ImageResponse` 가져오기를 `next/server`에서 `next/og`로 변경([Codemod](https://nextjs.org/docs/app/building-your-application/upgrading/codemods#next-og-import){:target="\_blank"})
+- [Breaking] `next export` 명령인 `output: 'export'`은 출력을 위해 더 이상 사용되지 않습니다.([Docs](https://nextjs.org/docs/app/building-your-application/deploying/static-exports){:target="\_blank"})
+- [Deprecation] [`onLoad`](https://nextjs.org/docs/app/api-reference/components/image#onload){:target="\_blank"}를 위해 `next/image`에 대한 `onLoadingComplete`가 사용 중단되었습니다.
+- [Deprecation] [`remotePatterns`](https://nextjs.org/docs/app/api-reference/components/image#remotepatterns){:target="\_blank"}를 위해 `next/image`에 대한 `domains`가 사용 중단되었습니다.
+- [Feature] `fetch` 캐싱에 대한 보다 자세한 logging을 활성화할 수 있습니다.([Docs](https://nextjs.org/docs/app/api-reference/next-config-js/logging){:target="\_blank"})
 - [Improvement] `create-next-app` 애플리케이션의 함수 크기가 80% 작아졌습니다.
 - [Improvement] `edge` runtime 사용 개발 시 메모리 관리를 강화했습니다.
 
