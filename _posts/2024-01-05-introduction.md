@@ -7,7 +7,7 @@ image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?
 ---
 
 > 본 포스팅은 Next.js Learn의 [Introduction](https://nextjs.org/learn/dashboard-app){:target="\_blank"} 내용을 번역한 것입니다.
-{: .prompt-tip }
+{: .prompt-info }
 
 ## Learn Next.js
 
@@ -72,4 +72,4 @@ _출처 : Next.js Learn_
 
 ## My Opinion
 
-개인적으로 Next.js를 이해하는데 Next.js Learn이 큰 도움이 되었습니다. Next.js에 관심있는 사람들이 해당 문서를 통해 공부할 수 있도록 한국어로 번역하고자 합니다. 본 번역 시리즈가 Next.js를 공부하는 사람들에게 도움이 되길 바랍니다.
+개인적으로 Next.js를 이해하는데 Next.js Learn이 큰 도움이 되었습니다. Next.js에 관심있는 분들이 해당 문서를 통해 공부하시는 날이 오면 좋겠습니다. 본 번역 시리즈가 프론트엔드 개발자께 도움이 되길 바랍니다. 감사합니다.

@@ -7,7 +7,7 @@ image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?
 ---
 
 > 본 포스팅은 [Next.js의 공식 블로그](https://nextjs.org/blog/next-14){:target="\_blank"}에 포스팅된 Next.js conf 내용을 번역한 것입니다.
-{: .prompt-tip }
+{: .prompt-info }
 
 ## Next.js 14
 
