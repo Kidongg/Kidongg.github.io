@@ -1,5 +1,5 @@
 ---
-title: Next.js Learn - Getting Started 번역
+title: Next.js Learn - 1. Getting Started 번역
 date: 2024-01-14 12:35:00 +0900
 categories: [Frontend, Nextjs]
 tags: [Next.js, Next.js conf, Next.js 14]
@@ -100,25 +100,30 @@ export type Invoice = {
 TypeScript를 사용하면 송장 `amount`에 ` number`` 대신  `string`을 전달하는 등 실수로 잘못된 데이터 형식을 컴포넌트나 데이터베이스에 전달하지 않도록 할 수 있습니다.
 
 > TypeScript 개발자인 경우
-  1. 데이터 유형을 수동으로 선언하고 있지만 유형 안전성을 높이려면 데이터베이스 스키마에 따라 유형을 자동으로 생성하는 [`Prisma`](https://www.prisma.io/){:target="\_blank"}를 사용하는 것이 좋습니다.
-  2. Next.js는 프로젝트에서 TypeScript를 사용하는지 감지하여 필요한 패키지와 구성을 자동으로 설치합니다. Next.js는 자동 완성 및 유형 안전성을 지원하기 위해 코드 편집기용 [`TypeScript plugin`](https://nextjs.org/docs/app/building-your-application/configuring/typescript#typescript-plugin){:target="\_blank"}도 함께 제공됩니다.
-{: .prompt-tip }
+
+1. 데이터 유형을 수동으로 선언하고 있지만 유형 안전성을 높이려면 데이터베이스 스키마에 따라 유형을 자동으로 생성하는 [`Prisma`](https://www.prisma.io/){:target="\_blank"}를 사용하는 것이 좋습니다.
+2. Next.js는 프로젝트에서 TypeScript를 사용하는지 감지하여 필요한 패키지와 구성을 자동으로 설치합니다. Next.js는 자동 완성 및 유형 안전성을 지원하기 위해 코드 편집기용 [`TypeScript plugin`](https://nextjs.org/docs/app/building-your-application/configuring/typescript#typescript-plugin){:target="\_blank"}도 함께 제공됩니다.
+   {: .prompt-tip }
 
 ## Running the development server
+
 `npm install`를 실행하여 프로젝트의 패키지를 설치합니다.
+
 ```shell
 npm install
 ```
+
 이어서 `npm run dev`를 실행하여 개발 서버를 시작합니다.
+
 ```shell
 npm run dev
 ```
+
 `npm run dev`는 포트 3000에서 Next.js 개발 서버를 시작합니다. 제대로 작동하는지 확인해 봅시다. 브라우저에서 [http://localhost:3000](http://localhost:3000){:target="\_blank"}을 엽니다. 홈페이지는 다음과 같이 표시되어야 합니다.
 ![img-description](/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fgetting-started%2Fhomepage.png?alt=media&token=d3373c19-7753-4143-8246-0e160a17daad)
 _출처 : Next.js Learn_
 
-
 ## My Opinion
+
 - Next.js에서 공식적으로 제안하는 앱 라우터 파일 구조에 대해 알 수 있었습니다. `/app`, `/app/lib`, `/app/ui`, `/public`, `/scripts`의 구조는 기능에 따라 파일을 관리할 수 있다는 장점이 있는 것같습니다.
 - Next.js Learn이 입문자들의 눈높이에서 작성되었다는 것을 단번에 알 수 있었습니다. TypeScript에 대한 내용을 모르더라도 커리큘럼을 따라가다보면 TypeScript의 필요성과 사용법을 이해할 수 있도록 구성했기 때문입니다.
-
