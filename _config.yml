@@ -28,8 +28,8 @@ url: "https://Kidongg.github.io"
 github:
   username: Kidongg # change to your github username
 
-twitter:
-  username: Kidongg # change to your twitter username
+# twitter:
+#   username: Kidongg # change to your twitter username
 
 social:
   # Change to your full name.
@@ -44,13 +44,15 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: # fill in to your verification string
+google_site_verification: google2787b95d5bebdf1a.html
+# fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: "G-QWE9PZ40EG"
+  id: "408267818"
+  # id: "G-QWE9PZ40EG"
 
 # Prefer color scheme setting.
 #
@@ -83,12 +85,12 @@ comments:
   active: giscus
   # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
-  disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
-  utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+  # disqus:
+  #   shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # # utterances settings › https://utteranc.es/
+  # utterances:
+  #   repo: # <gh-username>/<repo>
+  #   issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
     repo: Kidongg/Kidongg.github.io # <gh-username>/<repo>
