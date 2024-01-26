@@ -28,8 +28,8 @@ url: "https://Kidongg.github.io"
 github:
   username: Kidongg # change to your github username
 
-twitter:
-  username: Kidongg # change to your twitter username
+# twitter:
+#   username: Kidongg # change to your twitter username
 
 social:
   # Change to your full name.
@@ -83,12 +83,12 @@ comments:
   active: giscus
   # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
-  disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
-  utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+  # disqus:
+  #   shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # # utterances settings › https://utteranc.es/
+  # utterances:
+  #   repo: # <gh-username>/<repo>
+  #   issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
     repo: Kidongg/Kidongg.github.io # <gh-username>/<repo>
