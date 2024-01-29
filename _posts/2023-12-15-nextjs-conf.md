@@ -1,7 +1,7 @@
 ---
-title: Next.js Conf (2023.10.26) 번역
+title: Vercel Blog - Next.js Conf (2023.10.26) 번역
 date: 2023-12-15 22:50:00 +0900
-categories: [Frontend, Nextjs]
+categories: [Frontend, Vercel]
 tags: [Next.js, Next.js conf, Next.js 14]
 image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?alt=media&token=09247773-9707-4dd1-b3ca-3fe7f943497a
 ---
@@ -33,14 +33,15 @@ npx create-next-app@latest
 ## Next.js Compiler: Turbocharged
 
 ---
-
-`next dev`를 위한 5,000건의 통합 테스트가 현재 기본 Rust 엔진인 [Turbopack](https://turbo.build/pack){:target="\_blank"}을 통해 진행 중입니다. 이러한 테스에는 7년간의 버그 수정이 포함됩니다. <br>
+Next.js 13부터 페이지와 앱 라우터 모두에서 Next.js의 로컬 개발 성능을 개선하기 위해 노력해 왔습니다. <br />
+이전에는 이러한 노력을 지원하기 위해 `next dev`와 Next.js의 다른 부분을 다시 작성했습니다. 이후에는 보다 점진적인 방식으로 접근 방식을 변경했습니다. 즉, 모든 Next.js 기능을 우선적으로 지원하는 데 중점을 두었기 때문에 Rust 기반 컴파일러가 곧 안정화될 것입니다. <br />
+`next dev`를 위한 5,000건의 통합 테스트가 현재 기본 Rust 엔진인 [Turbopack](https://turbo.build/pack){:target="\_blank"}을 통해 진행 중입니다. 이러한 테스에는 7년간의 버그 수정이 포함됩니다. <br />
 대규모 Next.js 애플리케이션인 `vercel.com`에서 테스트하는 동안 다음과 같은 사실을 확인했습니다.
 
 - 최대 53.3% 빨라진 로컬 서버 시작 속도
 - 빠른 새로 고침으로 최대 94.7% 더 빠른 코드 업데이트
 
-이 벤치마크는 대규모 애플리케이션에서 기대할 수 있는 성능 개선의 실질적인 결과입니다. 현재 다음 개발 테스트의 90%가 통과되었음으로 `--turbo`를 사용할 때 더 빠르고 안정적인 성능을 일관되게 경험할 수 있습니다. 테스트 통과율이 100%에 도달하면 다음 마이너 릴리스에서 터보팩을 안정 버전으로 전환할 예정입니다. 또한 사용자 정의 구성 및 에코 시스템 플러그인에 대한 웹팩 사용도 계속 지원할 예정입니다. 테스트 통과율을 [`areweturboyet.com`](https://areweturboyet.com/){:target="\_blank"}에서 확인할 수 있습니다.
+이 벤치마크는 대규모 애플리케이션에서 기대할 수 있는 성능 개선의 실질적인 결과입니다. 현재 `next dev` 테스트의 90%가 통과되었음으로 `next dev --turbo`를 사용할 때 더 빠르고 안정적인 성능을 일관되게 경험할 수 있습니다. 테스트 통과율이 100%에 도달하면 다음 마이너 릴리스에서 터보팩을 안정 버전으로 전환할 예정입니다. 또한 사용자 정의 구성 및 에코 시스템 플러그인에 대한 웹팩 사용도 계속 지원할 예정입니다. 테스트 통과율을 [`areweturboyet.com`](https://areweturboyet.com/){:target="\_blank"}에서 확인할 수 있습니다.
 
 ## Forms and Mutations
 
@@ -267,7 +268,7 @@ Next.js Learn은 수백만 명의 개발자에게 프레임워크의 기초를 �
 
 ---
 
-## My Opinion
+## Opinion
 
 Next.js가 엔지니어의 개발 경험 향상에 많은 노력을 하는 것 같습니다. Server Actions으로 프론트와 백엔드 로직을 하나의 파일에서 관리하여 빠른 개발이 가능할 것 같습니다. 그럼에도 불구하고 Next.js 서버 하나로 모든 비즈니스 로직을 구현하는 것은 한계가 있을 것입니다. 만약 1인 개발이고, 서비스 규모가 작고, 추후에 변경 가능성이 적을 경우에 사용하면 좋을 것이라 생각합니다. <br/>
 Next.js의 렌더링 측면에서 유저 경험 향상을 위한 노력이 인상 깊습니다. Partial Prerendering이라는 새로운 개념을 제시하여 동적 콘텐츠를 정적 콘텐츠와 비슷한 속도로 렌더링하려는 목표를 달성할 수 있을지 궁금합니다. Stable하게 높은 성능으로 동작한다면 프론트엔드 프레임워크로써 Next.js의 영향력이 더 커지지 않을까 생각합니다.
