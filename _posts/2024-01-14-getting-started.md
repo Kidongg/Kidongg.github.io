@@ -123,7 +123,7 @@ npm run dev
 ![img-description](/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fgetting-started%2Fhomepage.png?alt=media&token=d3373c19-7753-4143-8246-0e160a17daad)
 _출처 : Next.js Learn_
 
-## My Opinion
+## Opinion
 
 - Next.js에서 공식적으로 제안하는 앱 라우터 파일 구조에 대해 알 수 있었습니다. `/app`, `/app/lib`, `/app/ui`, `/public`, `/scripts`의 구조는 기능에 따라 파일을 관리할 수 있다는 장점이 있는 것같습니다.
 - Next.js Learn이 입문자들의 눈높이에서 작성되었다는 것을 단번에 알 수 있었습니다. TypeScript에 대한 내용을 모르더라도 커리큘럼을 따라가다보면 TypeScript의 필요성과 사용법을 이해할 수 있도록 구성했기 때문입니다.
