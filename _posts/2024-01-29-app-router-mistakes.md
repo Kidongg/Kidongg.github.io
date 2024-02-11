@@ -527,4 +527,4 @@ Next.js 앱 라우터는 React 애플리케이션을 구축하기 위한 개로�
   - Client component의 자식은 자동적으로 Client component로 구성됩니다. 하지만 필요하다면 `children`으로 감싸 Server component를 구성할 수 있습니다.
   - Server component에서 revalidate하는 방법은 `revalidatePath()`, `revalidateTag()`의 방법이 있습니다. 그리고 `try`, `catch`문 안에서 `redirect()`를 사용할 수 없습니다.
 - Opinion
-  - Next.js 앱 라우터를 사용하면서 겪을 수 있는 문제와 해결 방법을 제시해주다니, Vercel 팀은 매우매우 친절합니다. [Vercel 유튜브 채널](https://www.youtube.com/watch?v=RBM03RihZVs&t=3s){:target="\_blank"}에서도 추가 학습을 할 수 있습니다. 앞으로는 공식 문서, 블로그를 살펴보아야겠습니다.
+  - Next.js 앱 라우터를 사용하면서 겪을 수 있는 문제와 해결 방법을 제시해주다니, Vercel 팀은 매우매우 친절한 것 같습니다. [Vercel 유튜브 채널](https://www.youtube.com/watch?v=RBM03RihZVs&t=3s){:target="\_blank"}에서도 추가 학습을 할 수 있어서 좋았습니다. 앞으로도 꾸준히 Next.js 공식 문서와 Vercel 블로그를 트래킹해야 겠습니다.
