@@ -106,7 +106,7 @@ export default function Page() {
   );
 }
 ```
-마지막으로 `<AcmeLogo />` 컴포넌트도 `Lusitana`를 사용합니다. 오류를 방지하기 위해 주석을 달았으므로 이제 주석을 해제할 수 있습니다. 애플리케이션에 두 개의 사용자 정의 글꼴을 추가했습니다. 다음으로 홈 페이지에 히어로 이미지를 추가해 보겠습니다.
+마지막으로 `<AcmeLogo />` 컴포넌트도 `Lusitana`를 사용합니다. 오류를 방지하기 위해 주석을 달았으므로 이제 주석을 해제할 수 있습니다. 애플리케이션에 두 개의 사용자 정의 글꼴을 추가했습니다. 다음으로 홈페이지에 히어로 이미지를 추가해 보겠습니다.
 
 ## Why optimize images
 
@@ -130,7 +130,7 @@ Next.js는 이미지와 같은 정적 에셋을 최상위 폴더인 `/public` �
 `<Image>` 컴포넌트는 HTML `<img>` 태그의 확장으로, 자동 이미지 최적화와 같은 기능이 포함되어 있습니다.
 
 - 이미지가 로드될 때 레이아웃이 자동으로 이동하는 것을 방지합니다.
-- 뷰포트가 작은 기기에 큰 이미지가 전송되지 않도록 이미지 크기 조정합니다.
+- 뷰포트가 작은 기기에 큰 이미지가 전송되지 않도록 이미지 크기를 조정합니다.
 - 기본적으로 이미지 레이지 로딩(이미지가 뷰포트에 들어갈 때 이미지가 로드됨)을 합니다.
 - 브라우저에서 [WebP](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types#webp){:target="\_blank"} 및 [AVIF](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types#avif_image){:target="\_blank"}와 같은 최신 형식을 지원하는 경우 이미지를 제공합니다.
 
@@ -212,10 +212,10 @@ export default function Page() {
 }
 ```
 
-멋지네요. 이제 홈 페이지에 사용자 정의 글꼴과 히어로 이미지가 생겼습니다.
+멋지네요. 이제 홈페이지에 사용자 정의 글꼴과 히어로 이미지가 생겼습니다.
 
 ## Recommended reading
-원격 이미지 최적화 및 로컬 글꼴 파일 사용 등 이러한 주제에 대해 배울 수 있는 내용이 훨씬 더 많습니다. 글꼴과 이미지에 대해 자세히 알아보고 싶다면 다음을 참조하세요:
+원격 이미지 최적화 및 로컬 글꼴 파일 사용 등 이러한 주제에 대해 배울 수 있는 내용이 훨씬 더 많습니다. 글꼴과 이미지에 대해 자세히 알아보고 싶다면 다음을 참조하세요.
 
 - [Image Optimization Docs](https://nextjs.org/docs/app/building-your-application/optimizing/images){:target="\_blank"}
 - [Font Optimization Docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts){:target="\_blank"}
