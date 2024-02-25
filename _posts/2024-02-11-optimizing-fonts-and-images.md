@@ -70,7 +70,7 @@ export default function RootLayout({
 - Reveal the solution
 
 ```react
-// /app.ui/fonts.ts
+// /app/ui/fonts.ts
 
 import { Inter, Lusitana } from 'next/font/google';
  
