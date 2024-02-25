@@ -24,6 +24,9 @@ description: Keep kind and Be simple
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://Kidongg.github.io"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 github:
   username: Kidongg # change to your github username
