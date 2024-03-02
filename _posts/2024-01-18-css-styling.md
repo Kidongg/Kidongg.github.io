@@ -164,4 +164,4 @@ export default function InvoiceStatus({ status }: { status: string }) {
 
 - Global Styling 방법 : `global.css`, `app/layout.tsx`
 - Styling 방법 : Tailwind CSS, CSS Modules, Sass, CSS-in-JS
-- `clsx` 라이브러리 : 상태나 조건에 따라 요소의 스타일을 조건부로 지정할 수 있다.
+- `clsx` 라이브러리 : 상태나 조건에 따라 요소의 클래스 이름을 조건부로 지정할 수 있다.
