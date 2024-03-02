@@ -142,4 +142,4 @@ export default function RootLayout({
 
 - Next.js는 파일 시스템 라우팅을 사용한다.
 - `page.tsx` : 페이지 마다 독립된 UI를 그릴 수 있다. 탐색시 렌더링 된다.
-- `layout.tsx` : 라이팅 경로마다 공통된 UI를 그릴 수 있다. 탐색시 렌더링 되지 않는다(Partial rendering). 
+- `layout.tsx` : 라이팅 경로마다 공통된 UI를 그릴 수 있다. 탐색시 렌더링 되지 않는다. 
