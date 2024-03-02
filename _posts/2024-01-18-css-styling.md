@@ -124,8 +124,7 @@ Tailwind와 CSS 모듈은 Next.js 애플리케이션의 스타일을 지정하�
 
 ## Using the `clsx` library to toggle class names
 
-상태나 다른 조건에 따라 요소의 스타일을 조건부로 지정해야 하는 경우가 있을 수 있습니다. <br />
-`clsx`는 클래스 이름을 쉽게 전환할 수 있는 라이브러리입니다. 자세한 내용은 [문서](https://github.com/lukeed/clsx){:target="\_blank"}를 참조하는 것이 좋지만 기본적인 사용법은 다음과 같습니다.
+상태나 다른 조건에 따라 요소의 스타일을 조건부로 지정해야 하는 경우가 있을 수 있습니다. `clsx`는 클래스 이름을 쉽게 전환할 수 있는 라이브러리입니다. 자세한 내용은 [문서](https://github.com/lukeed/clsx){:target="\_blank"}를 참조하는 것이 좋지만 기본적인 사용법은 다음과 같습니다.
 
 - 상태를 받아들이는 `InvoiceStatus` 컴포넌트를 만들고 싶다고 가정해 보겠습니다. 상태는 `'pending'` 또는 `'paid'`일 수 있습니다.
 - `'paid'`인 경우 색상을 녹색으로 지정하면 됩니다. `'pending'`인 경우 색상을 회색으로 지정합니다.
@@ -165,3 +164,4 @@ export default function InvoiceStatus({ status }: { status: string }) {
 
 - Global Styling 방법 : `global.css`, `app/layout.tsx`
 - Styling 방법 : Tailwind CSS, CSS Modules, Sass, CSS-in-JS
+- `clsx` 라이브러리 : 상태나 조건에 따라 요소의 스타일을 조건부로 지정할 수 있다.
