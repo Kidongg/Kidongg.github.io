@@ -1,5 +1,5 @@
 ---
-title: Next.js Learn - 5. Navigating Between Pages
+title: Next.js Learn - 5. Navigating Between Pages 번역
 date: 2024-03-02 12:00:00 +0900
 categories: [Frontend, Nextjs]
 tags: [Next.js, Next.js conf, Next.js 14]
