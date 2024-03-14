@@ -28,7 +28,7 @@ image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?
 {: .prompt-tip }
 
 ## Create a Vercel account
-[vercel.com/signup](http://vercel.com/signup){:target="\_blank"}을 방문하여 계정을 만드세요. 무료 'hobby' 요금제를 선택합니다. Github로 계속을 선택하여 Github와 vercel 계정을 연결합니다.
+[vercel.com/signup](https://vercel.com/signup){:target="\_blank"}을 방문하여 계정을 만드세요. 무료 'hobby' 요금제를 선택합니다. Github로 계속을 선택하여 Github와 vercel 계정을 연결합니다.
 
 ## Connect and deploy your project
 다음으로 방금 만든 Github 레포지토리를 선택하여 가져올 수 있는 이 화면으로 이동합니다.
