@@ -7,7 +7,7 @@ image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?
 ---
 
 > 본 포스팅은 Next.js Learn의 [Navigating Between Pages](https://nextjs.org/learn/dashboard-app/navigating-between-pages){:target="\_blank"} 내용을 번역한 것입니다.
-> {: .prompt-info }
+{: .prompt-info }
 
 이전 장에서 대시보드 레이아웃과 페이지를 만들었습니다. 이제 사용자가 대시보드 경로를 탐색할 수 있도록 몇 가지 링크를 추가해 보겠습니다.
 
