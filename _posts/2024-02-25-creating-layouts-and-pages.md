@@ -7,7 +7,7 @@ image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?
 ---
 
 > 본 포스팅은 Next.js Learn의 [Creating Layouts and Pages](https://nextjs.org/learn/dashboard-app/creating-layouts-and-pages){:target="\_blank"} 내용을 번역한 것입니다.
-> {: .prompt-info }
+{: .prompt-info }
 
 지금까지 애플리케이션에는 홈페이지만 있습니다. 레이아웃과 페이지로 더 많은 경로를 만드는 방법을 알아보겠습니다.
 
