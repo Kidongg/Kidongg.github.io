@@ -44,13 +44,8 @@ _July 2023 ~ Present_ <br/>
 | --------- | ---------------- |
 | Language  | TypeScript       |
 | Language  | JavaScript       |
-| Language  | Python           |
 | Framework | Next.js          |
 | Framework | React            |
-| Library   | Recoil           |
-| Library   | TanStack         |
-| Tool      | Lighthouse       |
-| Tool      | Google Analytics |
 
 ## 🏆 AWARDS & CERTIFICATIONS
 
