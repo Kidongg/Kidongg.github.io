@@ -88,7 +88,7 @@ export async function GET(request: Request) {
 
 ## 3. Route Handlers and Client Components
 
-클라이언트 컴포넌트는 `async`로 표시할 수 없고 데이터를 가져오거나 변경할 수 없기 때문에 라우트 핸들러를 클라이언트 컴포넌트와 함께 사용해야 한다고 생각할 수 있습니다. `fetch`를 작성하고 라우트 핸들러를 생성할 필요 없이 클라이언트 컴포너틑에서 직접 [서버 액션](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations){:target="\_blank"}을 호출할 수 있습니다.
+클라이언트 컴포넌트는 `async`로 표시할 수 없고 데이터를 가져오거나 변경할 수 없기 때문에 라우트 핸들러를 클라이언트 컴포넌트와 함께 사용해야 한다고 생각할 수 있습니다. `fetch`를 작성하고 라우트 핸들러를 생성할 필요 없이 클라이언트 컴포너트에서 직접 [서버 액션](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations){:target="\_blank"}을 호출할 수 있습니다.
 
 ```react
 // app/user-form.tsx
