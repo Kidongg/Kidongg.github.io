@@ -3,7 +3,7 @@ title: 우당탕탕 신입 개발자의 2023 회고
 date: 2023-12-23 22:25:00 +0900
 categories: [Diary, Retrospective]
 tags: ["2023", Diary, Retrospective]
-image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F2023-retrospective%2Fengineer.png?alt=media&token=020d0ef3-3dec-4387-a57e-c4fbc19bd3a1
+image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F2023-retrospective%2F2023.png?alt=media&token=48ca8227-e039-4927-9ac9-ddf886f87f27
 ---
 
 ## Overview
