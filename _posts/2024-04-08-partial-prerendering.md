@@ -1,7 +1,7 @@
 ---
 title: Next.js Learn - 10. Partial Prerendering (Optional)
 date: 2024-04-08 22:10:00 +0900
-categories: [Frontend, Nextjs]
+categories: [Frontend, Nextjs Learn]
 tags: [Next.js, Next.js conf, Next.js 14]
 image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?alt=media&token=09247773-9707-4dd1-b3ca-3fe7f943497a
 ---
@@ -19,11 +19,9 @@ image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?
 
 ## Combining Static and Dynamic Content
 현재 경로 내에서 [동적 함수](https://nextjs.org/docs/app/building-your-application/routing/route-handlers#dynamic-functions){:target="\_blank"}(예: `noStore()`, `cookies()`)를 호출하면 전체 경로가 동적이 됩니다. 이는 오늘날 대부분의 웹앱이 구축되는 방식과 일치하며 전체 애플리케이션 또는 특정 경로에 대해 정적 렌더링과 동적 렌더링 중 하나를 선택할 수 있습니다.
-
 <br />
 
-그러나 대부분의 경로는 완전히 정적이나 동적이지 않습니다. 정적 콘텐츠와 동적 콘텐츠가 모두 포함된 경로가 있을 수 있습니다. 소셜 미디어 피드가 있고 게시물은 정적이지만 게시물에 대한 좋아요는 동적인 것을 예로 들 수 있습니다.. 또는 제품 세부 정보는 정적이지만 사용자의 카트는 동적인 전자상거래 사이트를 예로 들 수 있습니다. 
-
+그러나 대부분의 경로는 완전히 정적이나 동적이지 않습니다. 정적 콘텐츠와 동적 콘텐츠가 모두 포함된 경로가 있을 수 있습니다. 소셜 미디어 피드가 있고 게시물은 정적이지만 게시물에 대한 좋아요는 동적인 것을 예로 들 수 있습니다. 또는 제품 세부 정보는 정적이지만 사용자의 카트는 동적인 전자상거래 사이트를 예로 들 수 있습니다. 
 <br />
 
 대시보드 페이지로 돌아가서 어떤 구성 요소를 정적 요소와 동적 요소로 간주할 수 있을까요? 대시보드 경로를 어떻게 분할할지 생각해 보세요.
@@ -35,7 +33,7 @@ _출처 : Next.js Learn_
 - `<Page>` 컴포넌트 : 자주 변경되는 데이터에 의존하고 사용자에게 맞춤화되므로 동적일 수 있습니다.
 
 ## What is Partial Prerendering?
-Next.js 14에는 Partial Prerendering이라는 새로운 렌더링 모델의 미리보기가 있습니다. Partial Prerendering은 정적 로딩 shell을 사용하여 경로를 렌더링하면서 일부 부분을 동적으로 유지할 수 있는 실험적인 기능입니다. 즉, 경로의 동적 부분을 분리할 수 있습니다.
+Next.js 14에는 Partial Prerendering이라는 새로운 렌더링 모델이 있습니다. Partial Prerendering은 정적 로딩 shell을 사용하여 경로를 렌더링하면서 일부 부분을 동적으로 유지할 수 있는 실험적인 기능입니다. 즉, 경로의 동적 부분을 분리할 수 있습니다.
 
 ![img-description](https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fpartial-prerendering%2Fimage.png?alt=media&token=0661c494-9644-4835-b3a2-c83f729d74c7)
 _출처 : Next.js Learn_
@@ -49,10 +47,9 @@ Partial Prerendering은 정적 엣지 전송과 동적 기능을 결합한 것�
 
 ## How does Partial Prerendering work?
 Partial Prerendering은 [Concurrent API](https://react.dev/blog/2021/12/17/react-conf-2021-recap#react-18-and-concurrent-features){:target="\_blank"}를 활용하고 [Suspense](https://react.dev/reference/react/Suspense){:target="\_blank"}를 사용하여 특정 조건(예: 데이터가 로드될 때까지)이 충족될 때까지 애플리케이션의 일부 렌더링을 연기합니다. 폴백은 다른 정적 콘텐츠와 함께 초기 정적 파일에 임베드됩니다. 빌드 시(또는 재검증 시) 경로의 정적 부분은 미리 렌더링되고, 나머지는 사용자가 경로를 요청할 때까지 연기됩니다.
-
 <br />
 
-컴포넌트를 Suspense로 래핑하면 컴포넌트 자체가 동적이 되는 것이 아니라(이 동작을 구현하기 위해 `unstable_noStore`를 사용했음을 기억하세요), Suspense가 경로의 정적 부분과 동적 부분 사이의 경계로 사용된가는 점에 주목할 필요가 있습니다. Partial Prerendering의 가장 큰 장점은 이를 사용하기 위해 코드를 변경할 필요가 없다는 것입니다. Suspense를 사용하여 경로의 동적 부분을 래핑하기만 하면 Next.js는 경로의 어느 부분이 정적이고 어느 부분이 동적인지 알 수 있습니다.
+컴포넌트를 Suspense로 래핑하면 컴포넌트 자체가 동적이 되는 것이 아니라(이 동작을 구현하기 위해 `unstable_noStore`를 사용했음을 기억하세요), Suspense가 경로의 정적 부분과 동적 부분 사이의 경계로 사용된다는 점에 주목할 필요가 있습니다. Partial Prerendering의 가장 큰 장점은 이를 사용하기 위해 코드를 변경할 필요가 없다는 것입니다. Suspense를 사용하여 경로의 동적 부분을 래핑하기만 하면 Next.js는 경로의 어느 부분이 정적이고 어느 부분이 동적인지 알 수 있습니다.
 
 > 참고 : Partial Prerendering을 구성하는 방법에 대해 자세히 알아보려면 [Partial Prerendering(실험적) 문서](https://nextjs.org/docs/app/api-reference/next-config-js/partial-prerendering){:target="\_blank"}를 참조하거나 [Partial Prerendering 템플릿 및 데모](https://vercel.com/templates/next.js/partial-prerendering-nextjs){:target="\_blank"}를 사용해 보세요. 이 기능은 실험적인 기능으로 아직 프로덕션 배포에 사용할 준비가 되지 않았다는 점에 유의하세요.
 {: .prompt-tip }

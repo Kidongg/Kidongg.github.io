@@ -1,7 +1,7 @@
 ---
 title: Next.js Learn - 9. Streaming
 date: 2024-04-04 00:30:00 +0900
-categories: [Frontend, Nextjs]
+categories: [Frontend, Nextjs Learn]
 tags: [Next.js, Next.js conf, Next.js 14]
 image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?alt=media&token=09247773-9707-4dd1-b3ca-3fe7f943497a
 ---
