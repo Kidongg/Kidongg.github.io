@@ -3,7 +3,7 @@ title: 미움받을 용기를 읽고나서
 date: 2024-05-20 22:00:00 +0900
 categories: [Book, Review]
 tags: [미움받을 용기, 아들러, 기시미 이치로, 고가 후미타케, 인생의 과제, 길잡이 별]
-image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fcourage-to-be-disliked%2Fcourage-to-be-disliked.png?alt=media&token=448afb5b-34ae-4ed4-892a-8973f8338bf8
+image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fcourage-to-be-disliked%2Fcourage-to-be-disliked.jpg?alt=media&token=fa603d42-07af-4f86-b59d-6b9e72ae90ca
 ---
 
 ## "미움 받을 용기"를 고른 이유
