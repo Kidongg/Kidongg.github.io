@@ -1,5 +1,5 @@
 ---
-title: Next.js Learn - 9. Streaming
+title: Next.js Learn - 9. Streaming 번역
 date: 2024-04-04 00:30:00 +0900
 categories: [Frontend, Next.js Learn]
 tags: [Next.js, Next.js conf, Next.js 14]

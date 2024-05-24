@@ -1,5 +1,5 @@
 ---
-title: Next.js Learn - 10. Partial Prerendering (Optional)
+title: Next.js Learn - 10. Partial Prerendering (Optional) 번역
 date: 2024-04-08 22:10:00 +0900
 categories: [Frontend, Next.js Learn]
 tags: [Next.js, Next.js conf, Next.js 14]
