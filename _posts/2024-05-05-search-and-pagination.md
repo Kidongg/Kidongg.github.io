@@ -1,5 +1,5 @@
 ---
-title: Next.js Learn - 11. Adding Search and Pagination
+title: Next.js Learn - 11. Adding Search and Pagination 번역
 date: 2024-05-05 12:05:00 +0900
 categories: [Frontend, Next.js Learn]
 tags: [Next.js, Next.js conf, Next.js 14]
