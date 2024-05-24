@@ -1,5 +1,5 @@
 ---
-title: 요즘 개발자를 읽고나서
+title: 요즘 개발자를 읽고
 date: 2024-03-30 15:15:00 +0900
 categories: [Book, Review]
 tags: [요즘 개발자, 후기, 리뷰, 기록, 공유]
