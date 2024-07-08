@@ -1,5 +1,5 @@
 ---
-title: npm error code 1 에러(feat. npm install)
+title: npm error code 1 에러 해결하기(feat. npm install)
 date: 2024-06-29 16:30:00 +0900
 categories: [Frontend, Experience]
 tags: [Node.js, npm, nvm, macOS]
