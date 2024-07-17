@@ -1,6 +1,6 @@
 ---
 title: Technical Blog - Product and Platform Engineers 번역
-date: 2024-07-17 16:00:00 +0900
+date: 2024-07-17 21:00:00 +0900
 categories: [Translation, Technical Blog]
 tags: [Product Engineer, Platform Engineer, Frontend, Backend]
 image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F1-product-and-platform-engineers%2Fimage-1.png?alt=media&token=accef52a-3e31-47cd-9a38-5e0d701c343a
