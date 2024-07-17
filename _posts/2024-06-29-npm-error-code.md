@@ -1,7 +1,7 @@
 ---
 title: npm error code 1 에러 해결하기(feat. npm install)
 date: 2024-06-29 16:30:00 +0900
-categories: [Frontend, Experience]
+categories: [Experience, Frontend]
 tags: [Node.js, npm, nvm, macOS]
 image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnpm-error-code-1%2Fnodejs.png?alt=media&token=169b7c52-15f6-41c6-a8c0-840522ccc563
 ---

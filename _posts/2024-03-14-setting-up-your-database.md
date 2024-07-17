@@ -1,7 +1,7 @@
 ---
 title: Next.js Learn - 6. Setting Up Your Database 번역
 date: 2024-03-14 23:00:00 +0900
-categories: [Frontend, Next.js Learn]
+categories: [Translation, Next.js Learn]
 tags: [Next.js, Next.js conf, Next.js 14]
 image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?alt=media&token=09247773-9707-4dd1-b3ca-3fe7f943497a
 ---

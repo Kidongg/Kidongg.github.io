@@ -1,7 +1,7 @@
 ---
 title: Vercel Blog - Next.js 앱 라우터의 일반적인 실수 및 해결 방법
 date: 2024-01-29 09:20:00 +0900
-categories: [Frontend, Vercel Blog]
+categories: [Translation, Vercel Blog]
 tags: [Next.js, Next.js conf, Next.js 14, Vercel]
 image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fvercel.jpg?alt=media&token=14eb23a1-68d5-4639-9ed3-c1e82be53d9e
 ---

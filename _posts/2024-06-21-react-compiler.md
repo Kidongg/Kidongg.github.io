@@ -1,7 +1,7 @@
 ---
 title: React Docs - React Compiler(experimental) 번역
 date: 2024-06-21 22:00:00 +0900
-categories: [Frontend, React Docs]
+categories: [Translation, React Docs]
 tags: [React, React Compiler]
 image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Freact-compiler%2Freact.png?alt=media&token=537171f4-ba52-4cb3-8178-6c8bfa0508a3
 ---
