@@ -1,7 +1,7 @@
 ---
 title: Next.js Learn - 4. Creating Layouts and Pages 번역
 date: 2024-02-25 17:15:00 +0900
-categories: [Frontend, Next.js Learn]
+categories: [Translation, Next.js Learn]
 tags: [Next.js, Next.js conf, Next.js 14]
 image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?alt=media&token=09247773-9707-4dd1-b3ca-3fe7f943497a
 ---
@@ -53,27 +53,29 @@ export default function Page() {
 
 시간을 들여 이 연습 문제를 해결하고 준비가 되면 아래의 해결책을 찾아보세요.
 
-- Reveal the solution - 폴더 구조는 다음과 같아야 합니다.
-  ![img-description](/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fcreating-layouts-and-pages%2Fpractice.png?alt=media&token=0aebdbd4-c62d-48d8-9ad4-d91f77fe08ce)
-  _출처 : Next.js Learn_ - Customers Page
+- Reveal the solution 
 
-          ```react
-                  // /app.dashboard/customers/page.tsx
+  - 폴더 구조는 다음과 같아야 합니다.
+    ![img-description](/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fcreating-layouts-and-pages%2Fpractice.png?alt=media&token=0aebdbd4-c62d-48d8-9ad4-d91f77fe08ce)
+    _출처 : Next.js Learn_ 
+  - Customers Page
 
-          export default function Page() {
-          return <p>Customers Page</p>;
-          }
-          ```
+  ```react
+  // /app.dashboard/customers/page.tsx
 
-      - Invoices Page
+  export default function Page() {
+  return <p>Customers Page</p>;
+  }
+  ```
+  - Invoices Page
 
-          ```react
-                  // /app.dashboard/customers/page.tsx
+  ```react
+  // /app.dashboard/customers/page.tsx
 
-          export default function Page() {
-          return <p>Customers Page</p>;
-          }
-          ```
+  export default function Page() {
+  return <p>Customers Page</p>;
+  }
+  ```
 
 ## Creating the dashboard layout
 

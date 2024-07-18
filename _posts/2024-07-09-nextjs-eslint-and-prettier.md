@@ -1,7 +1,7 @@
 ---
 title: Next.js에서 ESLint와 Prettier 설정하기(feat. VScode)
 date: 2024-07-09 00:30:00 +0900
-categories: [Frontend, Experience]
+categories: [Experience, Frontend]
 tags: [Next.js, ESLint, Prettier, VScode]
 image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?alt=media&token=09247773-9707-4dd1-b3ca-3fe7f943497a
 ---

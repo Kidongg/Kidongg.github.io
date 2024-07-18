@@ -1,7 +1,7 @@
 ---
 title: Kakao techmeet 간단 후기
 date: 2024-04-13 15:10:00 +0900
-categories: [Diary, Record]
+categories: [Diary, Meetup]
 tags: [Diary, Record, Kakao, Kakao techmeet]
 image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fkakao-techmeet%2Fimage_1.png?alt=media&token=62d22ba7-05a7-4634-b1c1-978c39b57980
 ---
