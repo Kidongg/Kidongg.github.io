@@ -1,6 +1,6 @@
 ---
 title: 문득 생각이 들었다. 나는 왜 Next.js를 쓰고 있지?
-date: 2024-08-15 14:00:00 +0900
+date: 2024-08-19 21:00:00 +0900
 categories: [Experience, Frontend]
 tags: [Next.js, Ajax, React, Web, Build]
 image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fnextjs.png?alt=media&token=09247773-9707-4dd1-b3ca-3fe7f943497a
