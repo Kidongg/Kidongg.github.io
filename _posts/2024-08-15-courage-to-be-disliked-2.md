@@ -1,7 +1,7 @@
 ---
 title: 미움받을 용기2를 읽고
 date: 2024-08-15 17:00:00 +0900
-categories: [Review, Book]
+categories: [Experience, Book]
 tags: [미움받을 용기, 아들러, 기시미 이치로, 고가 후미타케]
 image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F2-courage-to-be-disliked-2%2Fcourage-to-be-disliked-2.jpg?alt=media&token=48e8d1c3-e900-4133-923d-0179beb3a095
 ---

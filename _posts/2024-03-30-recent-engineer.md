@@ -1,7 +1,7 @@
 ---
 title: 요즘 개발자를 읽고
 date: 2024-03-30 15:15:00 +0900
-categories: [Review, Book]
+categories: [Experience, Book]
 tags: [요즘 개발자, 후기, 리뷰, 기록, 공유]
 image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Frecent-engineer%2Fimage_2.jpg?alt=media&token=881b2bbe-674a-458a-880e-5e3802ee0d68
 ---
