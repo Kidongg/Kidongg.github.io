@@ -7,7 +7,7 @@ image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/imag
 ---
 
 ## clean-code-react를 고른 이유
-리액트 클린코드를 공부한 이유는 두 가지입니다. 1)내가 짜고 있는 리액트 코드를 더 효율적으로 바꿀 방법을 알고 싶었습니다. 2)Next.js를 공부하면서 리액트를 Deep하게 공부하고 싶었습니다.
+리액트 클린코드를 공부한 이유는 두 가지입니다. 1)내가 짜고 있는 리액트 코드를 더 효율적으로 짜는 방법을 알고 싶었고, 2)Next.js를 공부하면서 리액트를 Deep하게 공부하고 싶었습니다(Next.js 공부의 결론이 React를 알고 싶다였습니다..!).
 
 - [문득 생각이 들었다. 나는 왜 Next.js를 쓰고 있지?](https://kidongg.github.io/posts/why-i-use-next-js/){:target="\_blank"}
 - [Next.js Learn 번역](https://kidongg.github.io/categories/next-js-learn/){:target="\_blank"}
@@ -451,9 +451,9 @@ function App() {
 - 프론트엔드에서 중요하게 다루어지는 다양한 개념들을 살펴볼 수 있었다.
 
 ## 인사이트
-1)리액트에서 코드를 관리하는 효율적인 방법을 알 수 있었습니다. 배운 내용을 고민하고 적용하면서 코드를 작성하고 싶습니다.  2)리엑트 생태계의 발전을 보며 앞으로의 공부 방향성을 생각할 수 있었습니다. 다음 스텝으로 인프라, CI/CD를 공부하려고 했는데, 그 이전에 Design Pattern, File Structure, Type Safe, Test Code에 대해 먼저 공부하는 것으로 바뀌었습니다. 앞선 것등이 프론트엔드의 기본에 더 가깝다고 생각하기 때문에 맞는 순서라 생각을 했습니다.
+1)리액트에서 코드를 관리하는 효율적인 방법을 알 수 있었습니다. 배운 내용을 고민하고 적용하면서 코드를 작성하고 싶습니다.  2)리액트 생태계의 발전을 보며 앞으로의 공부 방향성을 생각할 수 있었습니다. 다음 스텝으로 인프라, CI/CD를 공부하려고 했는데, 그 이전에 Design Pattern, File Structure, Type Safe, Test Code에 대해 먼저 공부하는 것으로 바뀌었습니다. 앞선 것등이 프론트엔드의 기본에 더 가깝다고 생각하기 때문에 맞는 순서라 생각을 했습니다.
 
-최소 하나 이상의 변화만 가져가도 성공적인 스터디였다고 할 수 있을 겁니다. 단순한 공부를 넘어 변화를 가져온 공부가 될 수 있도록 노력해야겠습니다. 다음 스텝은 TypeScript입니다. 화이팅해보겠습니다~!
+최소 하나 이상의 변화만 가져가도 성공적인 스터디였다고 할 수 있을 겁니다. 단순한 공부를 넘어 변화를 가져올 수 있는 공부가 될 수 있도록 노력해야겠습니다. 다음 스텝은 TypeScript입니다. 화이팅 해보겠습니다 ~!
 
 ## 참고자료
 - [리액트 클린코드](https://www.udemy.com/course/clean-code-react/?couponCode=KEEPLEARNING){:target="\_blank"}
