@@ -18,7 +18,7 @@ image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/imag
 
 1. 사람을 좋아하는 아이
 2. 나는 무엇이든 할 수 있어
-3. 나는 평범한 사람들 중 하나구나
+3. 나를 객관적으로 바라보는 시간
 4. 후회없이 살아보자, 지금까지 그랬던 것처럼
 
 ## 글또에서의 목표

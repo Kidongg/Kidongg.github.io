@@ -1,9 +1,9 @@
 ---
-title: 웹 프론트엔드 성능 최적화(애니메이션, 지연 로딩, 사전 로딩)
+title: 웹 프론트엔드 성능 최적화 두번째 스터디(애니메이션, 지연 로딩, 사전 로딩)
 date: 2024-10-13 20:30:00 +0900
 categories: [Experience, Study]
 tags: [Experience, Diary, Frontend, Study]
-image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F8-optimization%2Fimage-15.png?alt=media&token=6d56b5b3-931d-45be-b9e7-6ca86f8e8c36
+image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F8-optimization%2Fimage-26.gif?alt=media&token=1601b34a-b507-402d-ac30-01dfc641fe54
 ---
 
 SK Open Lab 2기에서는 [프론트엔드 성능 최적화 가이드] 책을 챕터별로 읽고 격주 발표하는 방식으로 스터디를 진행하고 있습니다. 이번주는 [2장. 올림픽 통계 서비스 최적화] 챕터 발표가 진행이 되었습니다. 해당 챕터를 공부하며 배우고 느낀점을 공유하려 합니다.
