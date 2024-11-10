@@ -7,11 +7,13 @@ image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/imag
 ---
 
 ## 글또를 시작하기 전에
+
 올해 초 링크드인에서 글또를 알게 되었습니다. 평소에 글을 쓰는 것에 관심이 있었고, 읽기 쉬운 글을 작성해보고 싶었던 지라 관심을 가지게 되었습니다. 그래서 다음 기수 모집 알림을 신청했고, 현재 글또 10기에 참여를 하게 되었습니다.
 
 [글또(글쓰는 또라이가 세상을 바꾼다)](https://geultto.github.io/)는 말 그대로 글 쓰는 개발자들의 모임입니다. 글을 작성하는 개발 직군분들이 모여서, 좋은 영향을 주고 서로 같이 자라는 것을 목표하는 커뮤니티입니다. 현재 660여명 참여하고 계시며 글쓰기, 글쓰기 세미나, 큐레이션, 소모임, 커피챗 등 다양한 활동이 이루어지고 있습니다.
 
 ## 나의 삶의 지도
+
 글또에 참여하기 위해서는 삶의 지도를 작성해야합니다. 삶의 지도는 내가 어떤 사람이고 어떤 성격을 가지고 있고, 어떤 사건으로 지금의 내가 되었는가를 글로 표현하는 과제입니다. 나를 객관적으로 파악하고 글또에 참여하길 바라는 운영진분들의 바람이 담긴 것이라 생각했습니다.
 
 생각해보니 그동안 나의 삶의 여정을 글로 정리해본 경험이 없었습니다. 삶의 지도를 작성하며 개구쟁이였던 어린 시절부터 목표를 향해 달려가는 현재를 되돌아 보는 좋은 기회를 가질 수 있었습니다. 글을 작성하며 나를 이해할 수 있었던 값진 경험을 했습니다. 목차는 다음과 같습니다.
@@ -24,11 +26,13 @@ image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/imag
 ## 글또에서의 목표
 
 ### 글또에서 얻어가고 싶은 것
+
 1. 메타인지 키우기(나에 대해 알아가기)
 2. 읽기 쉬운 글 작성하려 노력하기
 3. 내 생각이 담긴 글 작성하려 노력하기
 
 ### Action Plan
+
 1. 마감일 1일전에 글 제출하기
 2. 글 10회 이상 작성하기
 3. 글쓰기 세미나 참여하기
@@ -36,7 +40,7 @@ image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/imag
 
 패스권 2회는 모두 사용할 생각입니다. 글또 말고도 다른 스터디도 참여하고 있기 때문에 휴식을 취할 수 있는 시간을 확보하고 싶어서입니다.
 
-![Desktop View](https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F9-writing-resolution%2Fimage-2.png?alt=media&token=36e9c698-1e9a-48ed-b1ea-7f112f9728a1)
+![Desktop View](https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F8-optimization%2FImage-27.png?alt=media&token=f923e891-7279-47d4-9542-77cb89d3ff0d)
 
 대부분 경험과 관련한 카테고리에 해당하는 글을 쓸 예정입니다. 이를 통해 경험과 생각을 정리하는 습관을 기르고 싶기 때문입니다.
 
@@ -45,6 +49,7 @@ image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/imag
 - 8, 9, 10, 12번 글은 사이드 프로젝트를 포함한 여러 개발 경험을 통해 배우고 느꼈던 점을 풀어보고자 합니다.
 
 ### Action Started
+
 [글읽었또], [야매요리해또] 온라인 소모임에 참여중입니다. 아무래도 좋은 글은 혼자서 찾는데 한계가 있다고 생각합니다. [글읽었또]에서 다른 분들의 도움을 받고, 저도 좋은 글을 공유하고 싶습니다.
 
 ![Desktop View](https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F9-writing-resolution%2Fimage-3.png?alt=media&token=29248451-f3b6-4875-bd0e-8f933ad25195)
