@@ -1,5 +1,5 @@
 ---
-title: 웹 프론트엔드 성능 최적화 두번째 스터디(애니메이션, 지연 로딩, 사전 로딩)
+title: 웹 프론트엔드 성능 최적화 두번째 스터디(애니메이션 최적화, 지연 로딩, 사전 로딩)
 date: 2024-10-13 20:30:00 +0900
 categories: [Experience, Study]
 tags: [Experience, Diary, Frontend, Study]
