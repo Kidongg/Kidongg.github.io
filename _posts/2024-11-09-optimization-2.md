@@ -1,12 +1,12 @@
 ---
 title: 웹 프론트엔드 성능 최적화 네번째 스터디(레이아웃 시프트, 지연 로딩, 렌더링 최적화, 병목 코드 최적화)
-date: 2024-11-10 17:20:00 +0900
+date: 2024-11-06 17:20:00 +0900
 categories: [Experience, Study]
 tags: [Experience, Diary, Frontend, Study]
 image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F10-optimization-2%2Fimage-1.gif?alt=media&token=307a4b32-f880-483a-8576-f38714fbe144
 ---
 
-SK Open Lab에서 운영하는 프론트엔드 성능 최적화 스터디에 참여중입니다. [프론트엔드 성능 최적화 가이드] 책을 읽고 발표하는 방식으로 진행하고 있는데요. 이번주는 [4장. 이미지 갤러리 최적화] 챕터를 공부했습니다. 이미지 지연 로딩, 레이아웃 이동 피하기, 리덕스 렌더링 최적화, 병목 코드 최적화를 중심으로 프론트엔드 최적화 방안을 다루었습니다.
+SK Open Lab에서 운영하는 프론트엔드 성능 최적화 스터디에 참여중입니다. [프론트엔드 성능 최적화 가이드](https://product.kyobobook.co.kr/detail/S000200178292){:target="\_blank"} 책을 읽고 발표하는 방식으로 진행하고 있는데요. 이번주는 [4장. 이미지 갤러리 최적화] 챕터를 공부했습니다. 이미지 지연 로딩, 레이아웃 이동 피하기, 리덕스 렌더링 최적화, 병목 코드 최적화를 중심으로 프론트엔드 최적화 방안을 다루었습니다.
 
 ## 이미지 갤러리 최적화 서비스 분석
 
