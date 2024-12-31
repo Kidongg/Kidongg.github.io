@@ -6,7 +6,7 @@ tags: [Next.js, Next.js conf, Next.js 14, Vercel]
 image: /v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2Fnextjs-conf%2Fvercel.jpg?alt=media&token=14eb23a1-68d5-4639-9ed3-c1e82be53d9e
 ---
 
-> 본 포스팅은 Vercel 공식 블로그의 [앱 라우터의 일반적인 실수 및 해결 방법](https://vercel.com/blog/common-mistakes-with-the-next-js-app-router-and-how-to-fix-them){:target="\_blank"} 내용을 번역한 것입니다.
+> 본 포스팅은 Vercel 공식 블로그의 [앱 라우터의 일반적인 실수 및 해결 방법](https://vercel.com/blog/common-mistakes-with-the-next-js-app-router-and-how-to-fix-them){:target="\_blank"}를 번역한 것입니다.
 {: .prompt-info }
 
 수 백명의 개발자와 이야기를 나누고 수천개의 Next.js 레포지토리를 살펴본 결과, Next.js 앱 라우터로 빌드할때 흔히 저지르는 10가지 실수를 발견했습니다. <br/>
