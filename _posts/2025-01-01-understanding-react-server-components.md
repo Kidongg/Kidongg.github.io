@@ -1,5 +1,5 @@
 ---
-title: Vercel Blog - Understanding React Server Components (2023.08.01) 번역
+title: Vercel Blog - 리액트 서버 컴포넌트 이해하기(2023.08.01) 번역
 date: 2025-01-01 00:05:00 +0900
 categories: [Translation, Vercel Blog]
 tags: [Vercel, Next.js, React, Server Components]
