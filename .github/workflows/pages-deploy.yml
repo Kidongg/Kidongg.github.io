@@ -45,14 +45,23 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
-      - name: Debug build output
-        run: ls -la _site
+      - name: Check site size
+        run: du -sh _site
+
+      - name: Check for symlinks
+        run: find _site -type l -ls
+
+      - name: Remove symlinks
+        run: find _site -type l -delete
 
       - name: Upload site artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
-          path: "_site"
+          path: _site
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
 
   deploy:
     needs: build
