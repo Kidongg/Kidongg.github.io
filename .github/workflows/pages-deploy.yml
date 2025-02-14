@@ -67,15 +67,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Download site artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: artifact # upload-artifact와 동일한 이름 사용
-          path: _site
-
-      - name: Debug downloaded artifact
-        run: ls -R _site
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
