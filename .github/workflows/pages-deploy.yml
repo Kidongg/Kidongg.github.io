@@ -58,6 +58,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           path: "_site"
+          name: artifact # 명시적으로 이름 지정
 
   deploy:
     environment:
@@ -69,7 +70,7 @@ jobs:
       - name: Download site artifact
         uses: actions/download-artifact@v4
         with:
-          name: artifact
+          name: artifact # upload-artifact와 동일한 이름 사용
           path: _site
 
       - name: Debug downloaded artifact
