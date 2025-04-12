@@ -1,5 +1,5 @@
 ---
-title: 사이드 프로젝트로 한단계 도약하기
+title: 사이드 프로젝트로 협업해보기
 date: 2025-04-07 18:00:00 +0900
 categories: [Experience, Retrospect]
 tags: [Experience, Diary]
@@ -10,17 +10,17 @@ image: https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/imag
 
 신입 개발자에게 사수가 중요하다는 이야기를 종종 듣곤합니다. 문제 해결을 위해 비슷한 고민을 하고, 개발하면서 겪는 시행착오를 줄일 수 있기 때문일 것입니다.
 
-저는 신입때부터 지금까지 혼자서 프론트엔드 개발을 해오고 있습니다. 동료가 아예 없는 것은 아니고 [Cursor](https://www.cursor.com/){:target="\_blank"}와 [CodeRabbit](https://www.coderabbit.ai/){:target="\_blank"}이 있긴 합니다. 그럼에도 불구하고 마음속 한곳에는 제 코드에 대한 의문이 자리잡고 있습니다.
+저는 신입때부터 지금까지 혼자서 프론트엔드 개발을 해오고 있습니다. 동료가 아예 없는 것은 아니고 [Cursor](https://www.cursor.com/){:target="\_blank"}와 [CodeRabbit](https://www.coderabbit.ai/){:target="\_blank"}라는 인공지능 동료가 있긴 합니다. 그럼에도 불구하고 마음속 한곳에는 제 코드에 대한 의문이 자리잡고 있습니다.
 
-어떻게 하면 의문을 해결할 수 있을까요? 의문을 해결하기 위해 [컨퍼런스 참여](https://kidongg.github.io/posts/infcon-2024/){:target="\_blank"}, [모각코 운영](https://sepia-session-b25.notion.site/51d83b079bdb4e088ae9d559866cc477?v=2bcb73796bb240e0890d6f84bf06a55a){:target="\_blank"}, [스터디 참여](https://kidongg.github.io/posts/optimization-3/){:target="\_blank"}, [인터넷 강의](https://kidongg.github.io/posts/react-clean-code-study/){:target="\_blank"}와 같은 다양한 시도를 했었습니다. 사이드 프로젝트도 여러 시도 중 하나입니다.
+어떻게 하면 의문을 해결할 수 있을까요? 의문을 해결하기 위해 [컨퍼런스 참여](https://kidongg.github.io/posts/infcon-2024/){:target="\_blank"}, [모각코 운영](https://sepia-session-b25.notion.site/51d83b079bdb4e088ae9d559866cc477?v=2bcb73796bb240e0890d6f84bf06a55a){:target="\_blank"}, [스터디 참여](https://kidongg.github.io/posts/optimization-3/){:target="\_blank"}, [인터넷 강의](https://kidongg.github.io/posts/react-clean-code-study/){:target="\_blank"}와 같은 다양한 시도를 했었습니다. 사이드 프로젝트도 여러 시도 중 하나였습니다.
 
 ## 멤버들과의 만남 그리고 프로젝트 선정
 
-F-lab에서 수익화 프로젝트를 함께할 개발자를 모집하고 있었습니다. 여러 모집공고 중에서 "언니네 이발관"이 결성된 계기를 소개한 팀에 관심이 갔습니다.
+[F-lab](https://f-lab.kr/?utm_source=gdn&utm_medium=da&utm_campaign=performancemax_4&utm_content=max_20250324&gad_source=1&gbraid=0AAAAACGgUFeaO7p1xENDBT9eqcyU4hEyO&gclid=Cj0KCQjwnui_BhDlARIsAEo9Gus7lPYeknnC0_uhukNwIvpS8BDufQ_VCV6bIq3pJGK99RMgnqPTsBUaAidiEALw_wcB){:target="\_blank"}에서 수익화 프로젝트를 함께할 개발자를 모집하고 있었습니다. 여러 모집공고 중에서 "언니네 이발관"이 결성된 계기를 소개한 팀에 눈길이 갔습니다.
 
 ![Desktop View](https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F19-side-project%2Fimage-2.png?alt=media&token=418fc809-5e68-47cf-b077-36bf11c9c30c)
 
-미팅 이후 "저지르고 보는 팀"에 프론트엔드 개발자로 참여를 했습니다. 처음에는 아이디어 회의에 많은 시간을 보냈었습니다. 게이미피게이션 서비스 -> 지하철 빈 좌석 서비스의 흐름을 거쳐 시장 분석을 통과한 키보드 공제 서비스로 의견이 모아졌습니다.
+미팅 이후 "저지르고 보는 팀"에 프론트엔드 개발자로 참여를 했습니다. 처음에는 아이디어 회의에 많은 시간을 보냈었는데요. 결과적으로 게이미피게이션 서비스 -> 지하철 빈 좌석 서비스의 흐름을 거쳐 시장 분석을 통과한 키보드 공제 서비스로 의견이 모아졌습니다.
 
 ![Desktop View](https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F19-side-project%2Fimage-3.png?alt=media&token=a728757e-7677-43ff-8cab-736c6d4e3070)
 
@@ -46,7 +46,7 @@ PR마다 코드 리뷰도 진행했습니다. 처음에는 무엇을 리뷰해�
 
 ![Desktop View](https://firebasestorage.googleapis.com/v0/b/blog-a27f7.appspot.com/o/images%2Fposts%2F19-side-project%2Fimage-10.png?alt=media&token=2dabefdf-bc2a-44ae-9981-0fb5d74b8af1)
 
-## 퇴근 후 다른 작업을 하는 것은 쉽지 않다, 끝이 보인다
+## 퇴근 후 다른 작업을 하는 것은 쉽지 않다, 그래도 끝이 보인다
 
 퇴근하고 또 다른 개발을 하는 것은 쉬운 일이 아니었습니다. 무엇보다 피곤한 상태에서 집중력을 끌어올리는 것이 힘들었습니다. 다른 일이 있다면 우선순위에서 밀렸었는데요, 그러다보니 호흡이 길어지고 이는 컨택스트 스위칭에 리소스를 들어가게끔 했습니다.
 
